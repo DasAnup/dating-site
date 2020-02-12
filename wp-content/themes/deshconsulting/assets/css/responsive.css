@@ -1,0 +1,203 @@
+
+/* Normal desktop :992px. */
+
+@media only screen and (max-width:1199px) {
+}
+/****************************************************************************************
+@
+@	Tablet Styles
+@
+****************************************************************************************/
+/* Tablet desktop :768px. */
+
+@media only screen and  (min-width : 768px) and (max-width:991px) {
+    .bannerImg {
+        top: -89px;
+        width: 80%;
+    }
+    .getAnappointmnt:after {
+        top: -75px;
+    }
+    .headerfootr h2 {
+        font-size: 16px;
+    }
+    .innerGet {
+        margin-top: 60px;
+    }
+    .mainNavSec {
+        background: #d7d7d8;
+        position: absolute;
+        right: 0;
+        z-index: 4;
+        width: 100%;
+    }
+    .mainNavSec {
+        right: 0;
+    }
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) { /* viewport 768*1024 iPad(all) */
+    .footerSec iframe {
+        width: 100%;
+    }
+    .bannerTxt {
+        z-index: 3;
+    }
+
+}
+@media only screen and (min-width :1020px) and (max-width : 1026px) {
+
+}
+@media only screen and (min-width : 799px) and (max-width : 1279px) { /* viewport 800*1280 Galaxy Tab(1/2 10.1) and Kindle Fire HD 8.9" */
+}
+
+@media only screen and (min-width : 600px) and (max-width : 966px) { /* viewport 603*966 Nexus 7 */
+}
+
+@media only screen and (min-width : 600px) and (max-width : 1020px) { /* viewport 600*1024 Kindle Fire */
+}
+
+@media only screen and (min-width : 533px) and (max-width : 853px) { /* viewport 533*853 Kindle Fire HD 7" */
+}
+
+/****************************************************************************************
+@
+@	Mobile Styles
+@
+****************************************************************************************/
+@media only screen and (max-width :767px){
+    .footerSec {
+        padding-top: 35px;
+    }
+    .getAnappointmnt h2 {
+        font-size: 22px;
+        padding-bottom: 18px;
+    }
+    .mainNavSec .navbar-nav a:hover, .mainNavSec .navbar-nav a.active {
+        background-position: bottom left;
+    }
+    .innerGet {
+        margin-top: 60px;
+    }
+    .contact-form {
+        padding-top: 15px;
+    }
+    .contactUs.p-5 {
+        padding: 1rem!important;
+    } 
+    .innerBannerTxt {
+        font-size: 24px;
+    }
+    .innerBannerTxt {
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    #sliderSec .owl-nav.disabled+.owl-dots {
+        bottom: 0;
+    }
+    .getaQuote {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .navbar-toggler-icon{
+        background-image: url(../images/menu.png);
+        background-repeat: no-repeat;
+        background-color: #808080;
+    }
+    .navbar-toggler{
+        background-color: #808080;
+    }
+    .mainNavSec .navbar-nav a {
+        color: #808080;
+        border-bottom: 1px solid;
+    }
+    .mainNavSec {
+        background: #ffffff;
+        position: relative;
+        z-index: 4;
+        width: 100%;
+    }
+	.bannerTxt {
+        position: relative;
+        transform: translateY(0%);
+        right: 0;
+        background:#000; 
+    }
+    .welcomeSec{
+        padding-bottom: 30px;
+    }
+    .ourService:after{
+        top:-1px;
+    }
+    .ourService {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .welcomeSec h2 {
+        margin-top: 20px;
+    }
+    .bannerTxt h1 {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    .bannerTxt::after{
+        display: none;
+    }
+    .darkHeader .darkTopSec{
+        display: none;
+    }
+    .triangulo{
+        display: none;
+    }
+    .contactHeader {
+        text-align: left;
+    }
+    nav.navbar.navbar-expand-lg {
+        padding-top: 13px;
+        background: #212121;
+    }
+    .sideBoreder {
+        margin: 0px 0px 30px 0;
+    }
+    .sideBoreder::before {
+        bottom: -20px;
+        right: -8px;
+        height: 19px;
+    }
+    .ourmission {
+        text-align: center;
+    }
+    .successBusn {
+        margin-top:50px;
+        min-height: auto;
+        padding-bottom: 88px;
+    }
+    .successBusn:after {
+        top: -40px;
+    }
+    .bannerImg {
+        position: relative;
+        top:-16px;
+    }
+    .getAnappointmnt:after {
+        top: -56px;
+    }
+    .mainNavSec .navbar-nav a:hover, .mainNavSec .navbar-nav a.active {
+        color: #d4d4d4;
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width : 360px) and (max-width : 640px) { /* viewport 360*640px Galaxy S 3/4 and Galaxy Note II */
+}
+
+@media only screen and (min-width : 384px) and (max-width : 640px) { /* viewport 384*640px Lumia 920 */
+}
+@media only screen and (min-width : 400px) and (max-width : 767px) {
+
+}
